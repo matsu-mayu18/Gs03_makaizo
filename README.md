@@ -9,7 +9,7 @@ Share kid's movies online.
 
 ## ③DEMO
 
-デプロイしている場合はURLを記入（任意）
+https://matsu-mayu18.github.io/Gs03_makaizo/
 
 ## 4. ID/Pass if any
 
