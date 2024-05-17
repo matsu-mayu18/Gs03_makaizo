@@ -11,22 +11,18 @@ Share kid's movies online.
 
 デプロイしている場合はURLを記入（任意）
 
-## ④作ったアプリケーション用のIDまたはPasswordがある場合
+## 4. ID/Pass if any
 
-- ID: 〇〇〇〇〇〇〇〇
-- PW: 〇〇〇〇〇〇〇〇
 
-## ⑤工夫した点・こだわった点
 
-- 〇〇〇〇〇〇〇〇
-- 〇〇〇〇〇〇〇〇
-- 〇〇〇〇〇〇〇〇
+## 5. What is special about this product.
 
-## ⑥難しかった点・次回トライしたいこと(又は機能)
+- This product is best for sharing movies and share the memory with your family.  
 
-- 〇〇〇〇〇〇〇〇
-- 〇〇〇〇〇〇〇〇
-- 〇〇〇〇〇〇〇〇
+
+## 6. What is NOT done/having difficulty.
+
+- To include movies in slider.
 
 ## ⑦質問・疑問・感想、シェアしたいこと等なんでも
 
