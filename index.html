@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./css/sanitize.css" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="stylesheet" href="./css/splide-core.min.css">
+    </head>
+    
   </head>
   <body>
     <div class="header">
@@ -26,16 +30,24 @@
       <p>upload files here.</p>
     </div>
 
-    <div class="museum">
-      <div class="museum-container">
-        <img src="./img/IMG_6326.JPG" alt="" />
-        <img src="./img/IMG_6351.JPG" alt="" />
-        <img src="./img/IMG_6454.jpg" alt="" />
+    <section class="splide" area-label="スライダー">
+      <div class="splide__track">
+        <div class="splide__list">
+          <div class="splide__slide"><img src="./img/IMG_6326.JPG" alt=""></div>
+          <div class="splide__slide"><img src="./img/IMG_6351.JPG" alt=""></div>
+          <div class="splide__slide"><img src="./img/IMG_6454.jpg" alt=""></div>
+          <div class="splide__slide"><img src="./img/IMG_4977.JPG" alt=""></div>
+          <div class="splide__slide"><video src="./mov/735683801-20240424202324-download.mp4"></video></div>
+        </div>
       </div>
     </div>
 
     <!-- Javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/splide.min.js"></script>
     <script src="js/myjs.js"></script>
+    
+
+    
   </body>
 </html>

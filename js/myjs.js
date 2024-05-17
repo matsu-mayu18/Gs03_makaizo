@@ -1,15 +1,20 @@
-// function drawVideo() {
-//   var video = document.getElementById("video_0");
-//   var canvas = document.getElementById("canvas_0");
-
-//   canvas.getContext("2d").drawImage(video, 0, 0, 250, 360);
-// }
-
-// function realtimeVideo() {
-//   var video = document.getElementById("video_0");
-
-//   setInterval(function () {
-//     var canvas = document.getElementById("canvas_0");
-//     canvas.getContext("2d").drawImage(video, 0, 0, 250, 360);
-//   }, 1000 / 30);
-// }
+new Splide(".splide", {
+  type: "loop",
+  speed: 600,
+  padding: "20%",
+  perPage: 2,
+  perMove: 1,
+  wheel: true,
+  releaseWheel: true,
+  trimSpace: false,
+  focus: "center",
+  updateOnMove: false,
+  breakpoints: {
+    640: {
+      perPage: 2,
+    },
+    500: {
+      destroy: true,
+    },
+  },
+}).mount();
